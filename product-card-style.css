@@ -11,7 +11,8 @@ body {
 .product-card {
   width: 800px;
   height: 500px;
-  margin: 120px;
+  margin: 120px auto 0;
+  display: flex;
 }
 
 .left-img-col {
@@ -45,7 +46,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   color: lightgray;
-  letterspacing: 0.5px;
+  letter-spacing: 0.5px;
 }
 
 .right-info-col p {
@@ -56,7 +57,7 @@ body {
   line-height: 1.35;
 }
 
-.available-colors span: first-child {
+.available-colors span:first-child {
   font-size: 14px;
   color: black;
 }
@@ -88,8 +89,9 @@ body {
 .price {
   margin-top: 20px;
   padding-bottom: 20px;
+  display: flex;
   justify-content: space-between;
-  align items: center;
+  align-items: center;
 }
 
 .price h4 {
