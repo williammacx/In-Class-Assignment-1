@@ -13,11 +13,15 @@ body {
   height: 500px;
   margin: 120px auto 0;
   display: flex;
+  background: white;
+  overflow: hidden;
 }
 
 .left-img-col {
   width: 50%;
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .left-img-col img {
@@ -55,6 +59,14 @@ body {
   font-size: 14px;
   color: black;
   line-height: 1.35;
+}
+
+.available-colors {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
 .available-colors span:first-child {
