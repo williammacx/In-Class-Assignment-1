@@ -21,15 +21,15 @@ body {
 
 .left-img-col img {
   width: 100%;
-  height: 100%
+  height: 100%;
   object-fit: contain;
   display: block;
 }
 
 .right-info-col {
   width: 50%;
-  height: 100%
-  padding: 20px
+  height: 100%;
+  padding: 20px;
   color: black;
 }
 
